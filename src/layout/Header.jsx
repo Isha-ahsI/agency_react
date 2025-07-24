@@ -59,8 +59,8 @@ const Header = () => {
                 ))}
               </Nav>
             </div>
-            <div className="offcanvas-footer d-md-none p-3">
-              <span className="text-primary"><i className="ri-mail-fill fs-5 me-1"></i>info@boowebsite.com</span>
+            <div className="offcanvas-footer d-md-none p-3 text-primary">
+              <i className="ri-mail-fill fs-5 me-1"></i> <span>info@boowebsite.com</span>
             </div>
           </Navbar.Offcanvas>
         </Container>
