@@ -57,8 +57,10 @@
 @import "./components/background";
 @import "./components/utilities";
 @import "./components/button";
+@import "./components/helper";
 @import "./components/offcanvas";
 @import "./components/img";
 
 //plugins
-@import "./plugins/orbit"
+@import "./plugins/orbit";
+@import "./plugins/swiper";
