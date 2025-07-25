@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import Headerdata from "../data/headerdata.json";
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -7,14 +7,30 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
-
 const Header = () => {
   const expand = 'md';
+  const navbarRef = useRef(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        navbarRef.current.classList.add("nav-scroll");
+      }
+      else {
+        navbarRef.current.classList.remove("nav-scroll");
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+
   return (
     <>
-      <Navbar key={expand} expand={expand} fixed="top" className="bg-transparent mb-3" id="mainNavbar">
+      <Navbar key={expand} expand={expand} ref={navbarRef} fixed="top" className="navbar1" id="mainNavbar">
         <Container className='flex-md-column justify-content-center align-items-center'>
-          <div className="d-flex justify-content-between align-items-center w-100 mb-md-2">
+          <div className="d-flex justify-content-between align-items-center w-100">
             <span className="d-md-block d-none mail-id text-primary"><i className="ri-mail-fill"></i>info@boowebsite.com</span>
             <div className="nav-logo">
               <Navbar.Brand href="#" className='d-flex justify-content-md-center justify-content-start align-items-center text-center m-0'>
