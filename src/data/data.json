@@ -1,10 +1,22 @@
 {
-    "highlights":[
-        {"text": "Innovative Solutions"},
-        {"text": "Strategic Partnerships"},
-        {"text": "Expertise and Consulting"},
-        {"text": "Customized Solutions"},
-        {"text": "Timely and Reliable"},
-        {"text": "Continuous Improvement"}
+    "highlights": [
+        {
+            "text": "Innovative Solutions"
+        },
+        {
+            "text": "Strategic Partnerships"
+        },
+        {
+            "text": "Expertise and Consulting"
+        },
+        {
+            "text": "Customized Solutions"
+        },
+        {
+            "text": "Timely and Reliable"
+        },
+        {
+            "text": "Continuous Improvement"
+        }
     ]
 }
