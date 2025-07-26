@@ -10,7 +10,7 @@ import CountUp from 'react-countup';
 const AboutUs = () => {
     return (
         <>
-            <section className="section-lg aboutus-section wave-bg-1 overflow-hidden" id="aboutus">
+            <section className="section-lg aboutus-section wave-bg-1" id="aboutus">
                 <Container>
                     <Row className="align-items-center mb-5">
                         <Col lg={6} xs={12} className='mb-lg-0 mb-5'>
