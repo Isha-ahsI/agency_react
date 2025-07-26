@@ -7,15 +7,6 @@
     background-position: center;
     width: 100%;
     padding-top: 100px;
-
-    .hero-img {
-        .metric {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    }
 }
 
 .hero-section-primary2 {
@@ -96,6 +87,7 @@
 
         .aboutus-img {
             position: relative;
+            border:1px solid $primary;
             border-radius: 33% 65% 83% 18% / 73% 55% 46% 27%;
             z-index: 2;
         }
@@ -104,18 +96,18 @@
             height: 100%;
             width: 100%;
             top: 0%;
-            left: 0;
+            left: 0%;
             border: 1px solid $primary;
             background: transparent;
-            border-radius: 100% 48% 25% 99% / 44% 38% 100% 100%;
+             border-radius: 100% 48% 25% 125% / 45% 38% 100% 100%;
             z-index: 1;
         }
 
         .custom-bg {
             height: 100%;
             width: 100%;
-            top: 0%;
-            left: 0%;
+            top: 15px;
+            right: 15px;
             background-color: rgba($primary, 0.5);
             border-radius: 33% 65% 83% 18% / 73% 55% 46% 27%;
             z-index: 0;
