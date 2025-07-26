@@ -33,7 +33,7 @@ const HeroSection = () => {
                       </li>
                     ))}
                   </ul>
-                  <ul className="list-2 list-unstyled text-primary ps-sm-4 mb-sm-4 mb-0 lh-lg">
+                  <ul className="list-2 list-unstyled text-primary ps-sm-4  mb-4 lh-lg">
                     {Data.highlights.slice(-3).map((items, idx) => (
                       <li className="item-list" key={idx}>
                         <i className="ri-checkbox-circle-fill"></i>
@@ -42,6 +42,7 @@ const HeroSection = () => {
                     ))}
                   </ul>
                 </div>
+                <button className="btn btn-gradient">Explore more</button>
               </div>
             </Col>
             <Col xl={{ span: 5, order: 2, offset: 1 }} xs={{ span: 12, order: 1 }}>
@@ -75,7 +76,7 @@ const HeroSection = () => {
                   }} >
                     {({ countUpRef }) => (
                       <div>
-                        <h2 className="text-primary fw-semibold" ref={countUpRef}></h2>
+                        <h2 className="text-primary fw-semibold" ref={countUpRef}>0</h2>
                         <p className="text-secondary mb-0">Growth</p>
                       </div>
                     )}
