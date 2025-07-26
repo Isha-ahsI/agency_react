@@ -33,7 +33,7 @@ const HeroSection = () => {
                       </li>
                     ))}
                   </ul>
-                  <ul className="list-2 list-unstyled text-primary ps-sm-4  mb-4 lh-lg">
+                  <ul className="list-2 list-unstyled text-primary ps-sm-4 mb-4 lh-lg">
                     {Data.highlights.slice(-3).map((items, idx) => (
                       <li className="item-list" key={idx}>
                         <i className="ri-checkbox-circle-fill"></i>
@@ -65,7 +65,7 @@ const HeroSection = () => {
                   ))}
                 </div>
                 <div className="d-sm-none d-block">
-                    <img src={HeroImg} alt="..." className="img-fluid"></img>
+                    <img src={HeroImg} alt="..." className="img-fluid" />
                 </div>
                 <div className="metric position-absolute text-center">
                   <CountUp start={0} end={20000} delay={1} duration={5} separator="," formattingFn={(value) => {
