@@ -18,5 +18,24 @@
         {
             "text": "Continuous Improvement"
         }
+    ],
+
+    "Counters":[
+        {
+            "counting":"150",
+            "field":"Complete Projects"
+        },
+        {
+            "counting":"100",
+            "field":"Team Members"
+        },
+        {
+            "counting":"200",
+            "field":"Client Reviews"
+        },
+        {
+            "counting":"20",
+            "field":"Wining Award"
+        }
     ]
 }
