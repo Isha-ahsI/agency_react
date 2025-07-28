@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Row, Col, Badge, Card } from 'react-bootstrap';
-import img1 from '../../assets/growth_strategy1.jpg'
 import { featureData } from "../../data/data";
 
 const Features = () => {
