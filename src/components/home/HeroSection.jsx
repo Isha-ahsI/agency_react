@@ -1,7 +1,5 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Container, Row , Col } from 'react-bootstrap';
 import Data from '../../data/data.json';
 import { userImages } from '../../data/data';
 import CountUp from 'react-countup';
@@ -65,7 +63,7 @@ const HeroSection = () => {
                   ))}
                 </div>
                 <div className="d-sm-none d-block">
-                    <img src={HeroImg} alt="..." className="img-fluid" />
+                  <img src={HeroImg} alt="..." className="img-fluid" />
                 </div>
                 <div className="metric position-absolute text-center">
                   <CountUp start={0} end={20000} delay={1} duration={5} separator="," formattingFn={(value) => {
