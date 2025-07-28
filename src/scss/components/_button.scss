@@ -105,3 +105,41 @@
        box-shadow: none;
    }
 }
+
+
+//prising section toggle
+.billing-toggle {
+    border: 2px solid rgba($secondary, 0.5);
+    border-radius: $border-radius-2xl;
+    
+    .billing-option {
+        border: 1px solid transparent;
+        background-color: transparent;
+        color: $success;
+        font-weight: $font-weight-medium;
+        padding: 15px 25px;
+        transition: $transition-base;
+        &.active {
+            font-weight: $font-weight-bold;
+            color: $primary;
+        }
+    }
+
+    .toggle-overlay {
+        position: absolute;
+        color: $primary;
+        top: 0;
+        bottom: 0;
+        width: 50%;
+        background-color: rgba($success, 0.3);
+        border-radius: $border-radius-pill;
+        z-index: 1;
+        transition: $transition-base;
+        &.monthly {
+            transform: translateX(0%);
+        }
+        &.yearly{
+            transform: translateX(100%);
+        }
+    }
+}
