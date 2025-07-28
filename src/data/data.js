@@ -29,6 +29,14 @@ import logo10 from "../assets/b_logo/logo_10.png"
 import logo11 from "../assets/b_logo/logo_11.png"
 import logo12 from "../assets/b_logo/logo_12.png"
 
+// servicesImage
+import icon1 from "../assets/growth_strategy.png"
+import icon2 from "../assets/market_research.png"
+import icon3 from "../assets/brand_positioning.png"
+import icon4 from "../assets/digital_marketing.png"
+import icon5 from "../assets/bussiness_solutions.png"
+import icon6 from "../assets/financial_planning.png"
+
 
 // export userImages
 export const userImages = [
@@ -71,3 +79,73 @@ export const logoImages = [
   { src: logo11 , Name:"flaticon" },
   { src: logo12 , Name:"shopify" }
 ];
+
+//export serviceData
+export const serviceData=[
+  {
+    src:icon1,
+    title:"Growth Strategy",
+    subtitle:"Build a clear roadmap for sustainable growth.",
+    features:[
+      "Customized Solutions",
+      "Timely and Reliable",
+      "Continuous Improvement"
+    ],
+    number:"01"
+  },
+  {
+    src:icon2,
+    title:"Market Research",
+    subtitle:"Make informed decisions backed by real data.",
+    features:[
+      "Industry & competitor analysis",
+      "Target audience research",
+      "Product-market fit validation"
+    ],
+    number:"02"
+  },
+  {
+    src:icon3,
+    title:"Brand Positioning",
+    subtitle:"Define uniquely what makes your brand stand out.",
+    features:[
+      "Unique value proposition (UVP)",
+      "Brand voice & messaging",
+      "Competitive differentiation"
+    ],
+    number:"03"
+  },
+  {
+    src:icon4,
+    title:"Digital Marketing",
+    subtitle:"Drive leads with powerful, targeted campaigns.",
+    features:[
+      "SEO & content marketing",
+      "Paid advertising (Google)",
+      "Email marketing & automation"
+    ],
+    number:"04"
+  },
+  {
+    src:icon5,
+    title:"Creative Business Solutions",
+    subtitle:"Solve complex problems with innovative ideas.",
+    features:[
+      "Business model innovation",
+      "Process optimization",
+      "New product or service ideation"
+    ],
+    number:"05"
+  },
+  {
+    src:icon6,
+    title:"Financial Planning",
+    subtitle:"Plan your budget around strategic business goals.",
+    features:[
+      "Pricing strategy",
+      "Budget allocation",
+      "profitability analysis"
+    ],
+    number:"06"
+  }
+]
