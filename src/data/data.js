@@ -37,6 +37,13 @@ import icon4 from "../assets/digital_marketing.png"
 import icon5 from "../assets/bussiness_solutions.png"
 import icon6 from "../assets/financial_planning.png"
 
+//featuresImages
+import growth_strategy from "../assets/growth_strategy1.jpg"
+import powerfull_tools from "../assets/powerfull_tools.jpg"
+import marketing_managment from "../assets/marketing_managment.jpg"
+import automated_marketing from "../assets/automated_marketing.jpg"
+import growth_chart from "../assets/growth_chart.jpg"
+
 
 // export userImages
 export const userImages = [
@@ -148,4 +155,39 @@ export const serviceData=[
     ],
     number:"06"
   }
+]
+
+//export featureData
+export const featureData=[
+  {
+    src:growth_strategy,
+    alt:"growth_strategy",
+    icon:"ri-line-chart-line",
+    content:"Smarter Growth Starts With Real-Time Insights"
+  },
+  {
+    src:powerfull_tools,
+    alt:"powerfull_tools",
+    icon:"ri-rocket-2-line",
+    content:"Powerful Tools to Fuel Your Business Expansion"
+  },
+  {
+    src:marketing_managment,
+    alt:"marketing_managment",
+    icon:"ri-group-line",
+    content:"Your Brand, Everywhere Your Customers Want To Be"
+  },
+  {
+    src:automated_marketing,
+    alt:"automated_marketing",
+    icon:"ri-hourglass-line",
+    content:"Automated Marketing That Saves Time and Delivers Results"
+  },
+  {
+    src:growth_chart,
+    alt:"growth_chart",
+    icon:"ri-bar-chart-box-line",
+    content:"The process of tracking profit is hassle free anytime anywhere"
+  }
+
 ]
