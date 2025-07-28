@@ -19,23 +19,66 @@
             "text": "Continuous Improvement"
         }
     ],
-
-    "Counters":[
+    "Counters": [
         {
-            "counting":"150",
-            "field":"Complete Projects"
+            "counting": "150",
+            "field": "Complete Projects"
         },
         {
-            "counting":"100",
-            "field":"Team Members"
+            "counting": "100",
+            "field": "Team Members"
         },
         {
-            "counting":"200",
-            "field":"Client Reviews"
+            "counting": "200",
+            "field": "Client Reviews"
         },
         {
-            "counting":"20",
-            "field":"Wining Award"
+            "counting": "20",
+            "field": "Wining Award"
+        }
+    ],
+    "priceData": [
+        {
+            "title": "Starter",
+            "level": "Basic",
+            "content": "Perfect for individuals.",
+            "monthlyPrice": "29",
+            "yearlyPrice": "278",
+            "benefits": [
+                "Team members:1",
+                "Users: Unlimited",
+                "Integration :Unlimited",
+                "Total Messages:150",
+                "Assistants:2"
+            ]
+        },
+        {
+            "title": "Bussiness",
+            "level": "Basic",
+            "content": "Perfect for small bussinesses.",
+            "monthlyPrice": "39",
+            "yearlyPrice": "374",
+            "benefits": [
+                "Team members:3",
+                "Users: Unlimited",
+                "Integration :Unlimited",
+                "Total Messages:650",
+                "Assistants:5"
+            ]
+        },
+        {
+            "title": "Professional",
+            "level": "Pro",
+            "content": "Perfect for larger bussiness.",
+            "monthlyPrice": "59",
+            "yearlyPrice": "566",
+            "benefits": [
+                "Team members:5",
+                "Users: Unlimited",
+                "Integration :Unlimited",
+                "Total Messages:1650",
+                "Assistants:12"
+            ]
         }
     ]
 }
