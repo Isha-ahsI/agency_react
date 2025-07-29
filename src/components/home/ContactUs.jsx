@@ -21,7 +21,7 @@ const ContactUs = () => {
                                     <h2 className="text-center text-light mb-4">Get in touch</h2>
                                 </Form.Text>
                                 <Form.Group as={Row}>
-                                    <Col sm={6} xs={12} className="mb-4 shadow-none">
+                                    <Col sm={6} xs={12} className="mb-4">
                                         <Form.Control size="lg" type="text" placeholder="Company Name" />
                                     </Col>
                                     <Col sm={6} xs={12} className="mb-4">
