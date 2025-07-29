@@ -7,6 +7,7 @@ import Pricing from '../components/home/Pricing'
 import Features from '../components/home/Features'
 import Team from '../components/home/Team'
 import ContactUs from '../components/home/ContactUs'
+import FAQs from '../components/home/FAQs'
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Pricing />
       <Team />
       <ContactUs />
+      <FAQs />
     </div>
   )
 }
