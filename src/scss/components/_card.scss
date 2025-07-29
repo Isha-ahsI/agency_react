@@ -119,14 +119,15 @@
             radial-gradient(at 41% 94%, hsla(162, 73%, 46%, 1) 0px, transparent 85%),
             radial-gradient(at 100% 99%, hsla(187, 59%, 38%, 1) 0px, transparent 85%);
         background-position: 0px 5px;
+
         @media (min-width: 1200px) {
 
-            &.scale-large{
+            &.scale-large {
                 transform: scale(1.1);
-               box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             }
-    
-            &.scale-small{
+
+            &.scale-small {
                 transform: scale(1);
             }
         }
@@ -166,15 +167,31 @@
             }
 
             &::before {
-                top: 0;
-                left: 0;
                 box-shadow: -140px 140px $primary;
+
+                @media (min-width: 1200px) {
+                    top: -2px;
+                    left: 2px;
+                }
+
+                @media (max-width: 1199.98px) {
+                    top: 0;
+                    left: 0;
+                }
             }
 
             &::after {
-                bottom: 0;
-                right: 0;
-                box-shadow: 140px -140px $primary;
+                box-shadow: -140px 140px $primary;
+                
+                @media (min-width: 1200px) {
+                    bottom: 2px;
+                    right: -2px;
+                }
+
+                @media (max-width: 1199.98px) {
+                    bottom: 0;
+                    right: 0;
+                }
             }
         }
 

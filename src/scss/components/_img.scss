@@ -99,7 +99,7 @@
             left: 0%;
             border: 1px solid $primary;
             background: transparent;
-             border-radius: 100% 48% 25% 125% / 45% 38% 100% 100%;
+            border-radius: 100% 48% 25% 125% / 45% 38% 100% 100%;
             z-index: 1;
         }
 
@@ -199,7 +199,7 @@
 }
 
 
-.contactus-section {
+.contactus-bg {
     position: relative;
     background-image: url('../../assets/contactus.jpg');
     background-size: cover;
@@ -207,7 +207,6 @@
     background-position: center;
     background-repeat: no-repeat;
     color: $light;
-    padding: 100px 0;
 
     .overlay {
         position: absolute;
@@ -217,7 +216,7 @@
     }
 
     @media (max-width: 768px) {
-        .contactus-section {
+        .contactus-bg {
             background-attachment: scroll;
         }
     }

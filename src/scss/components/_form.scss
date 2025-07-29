@@ -1,0 +1,63 @@
+//form
+form {
+    .input-group {
+        .form-control {
+            border-color: $light;
+            box-shadow: none;
+            padding: $input-padding-y $input-padding-x;
+        }
+
+        .input-group-text {
+            background-color: $success;
+            color: $light;
+            border: transparent;
+            transition: $transition-base;
+
+            &:hover {
+                .input-icon {
+                    transform: translateX(5px);
+                }
+            }
+        }
+    }
+
+    &.contactus-form {
+
+        .form-control,
+        .form-select {
+            border-radius: 0;
+            border-color: transparent;
+            box-shadow: none;
+
+            &.form-control-lg,
+            &.form-select-lg {
+                padding: .75rem 1.25rem;
+                font-size: 1.10rem;
+            }
+        }
+    }
+
+    &.form-auth {
+        .form-control {
+            padding: $input-padding-y $input-padding-x;
+            background-color: rgba($light, 0.6);
+            border: 2px solid transparent;
+            color: $primary;
+
+            &:focus {
+                box-shadow: 0 0 0 .25rem rgba($light, .7);
+            }
+        }
+
+        .form-check-input {
+            color: $primary;
+            background-color: $light;
+            box-shadow: none;
+            border: 2px solid transparent;
+
+            &:checked {
+                background-color: $primary;
+            }
+        }
+    }
+}
