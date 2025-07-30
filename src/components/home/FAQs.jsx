@@ -12,7 +12,7 @@ const FAQs = () => {
 
     return (
         <>
-            <section className="section-lg faqs-section overflow-hidden">
+            <section className="section-lg faqs-section overflow-hidden" id="FAQs">
                 <Container>
                     <Row>
                         <Col xs={12} className='mb-4'>
