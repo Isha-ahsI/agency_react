@@ -45,7 +45,7 @@ const Header = () => {
 
           <Navbar.Offcanvas id={`offcanvasNavbar-expand-${expand}`}
             aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-            placement="end" scroll={true}>
+            placement="end" scroll={true} className="my-md-1">
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className='text-primary'>
                 Menu
