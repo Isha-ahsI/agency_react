@@ -5,7 +5,7 @@ import { serviceData } from "../../data/data";
 const Services = () => {
     return (
         <>
-            <section className="section-lg">
+            <section className="section-lg" id="services">
                 <Container>
                     <Row>
                         <Col xs={12} className='mb-5'>
