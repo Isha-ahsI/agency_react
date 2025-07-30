@@ -46,9 +46,6 @@ const FAQs = () => {
                                                 <Accordion.Body>{items.answer}</Accordion.Body>
                                             </Accordion.Item>
                                         ))}
-                                        {/* <Accordion.Item eventKey="1"></Accordion.Item>
-                                        <Accordion.Item eventKey="2"></Accordion.Item>
-                                        <Accordion.Item eventKey="3"></Accordion.Item> */}
                                     </Accordion>
                                 </Col>
                                 <Col lg={{ span: 4, offset: 1 }} xs={12}>
