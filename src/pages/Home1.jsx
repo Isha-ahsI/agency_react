@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroSection from '../components/home/HeroSection'
+import HeroSection1 from '../components/herosections/HeroSection1'
 import TrustedBrands from '../components/home/TrustedBrands'
 import AboutUs from '../components/home/AboutUs'
 import Services from '../components/home/Services'
@@ -12,8 +12,8 @@ import FAQs from '../components/home/FAQs'
 
 const Home = () => {
   return (
-    <div>
-      <HeroSection />
+    <>
+      <HeroSection1 />
       <TrustedBrands />
       <AboutUs />
       <Services />
@@ -22,7 +22,7 @@ const Home = () => {
       <Team />
       <ContactUs />
       <FAQs />
-    </div>
+    </>
   )
 }
 
