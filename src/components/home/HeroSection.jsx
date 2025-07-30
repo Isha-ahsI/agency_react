@@ -11,7 +11,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <section className="hero-section-primary min-vh-100 d-flex align-items-center" id='home'>
+      <section className="hero-section-primary min-vh-100 d-flex align-items-center overflow-hidden" id='home'>
         <Container>
           <Row className="align-items-center">
             <Col xl={{ span: 6, order: 1 }} xs={{ span: 12, order: 2 }}>
