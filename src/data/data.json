@@ -226,5 +226,61 @@
             "question": "What kind of analytics or reporting do you provide?",
             "answer": "We provide monthly performance reports with insights on traffic, conversions, ROI, and suggestions for improvement."
         }
+    ],
+    "footerData": [
+        {
+            "class": "col-lg-2",
+            "title": "Agency",
+            "links": [
+                { "href": "#home", "text": "Home"},
+                { "href": "#aboutus", "text": "About Us"},
+                { "href": "#services", "text": "Service"},
+                { "href": "#features", "text": "Features"},
+                { "href": "#pricing", "text": "Pricing"},
+                { "href": "#contactus", "text": "Contact Us"}
+            ]
+        },
+        {
+            "class": "col-lg-3",
+            "title": "Service",
+            "links": [
+                { "href": "#services", "text":  "Growth Strategy"},
+                { "href": "#services", "text":"Market Research"},
+                { "href": "#services", "text":  "Brand Positioning"},
+                { "href": "#services", "text": "Digital Marketing"},
+                { "href": "#services", "text":"Creative Business Solutions"},
+                { "href": "#services", "text":"Financial Planning"}            
+            ]
+        },
+        {
+            "class": "col-lg-3",
+            "title": "Help",
+            "links": [
+                { "href": "#supportcenter", "text": "Support Center"},
+                { "href": "#termsandcondition", "text": "Terms & Condition"},
+                { "href": "#disclaimer", "text": "Disclaimer"},
+                { "href": "#FAQs", "text": "FAQs"}
+            ]
+        }
+    ],
+    "footerContact": [
+        {
+            "type": "phone",
+            "icon": "ri-phone-fill",
+            "title": "Contact",
+            "content": "01-000-999-333"
+        },
+        {
+            "type": "location",
+            "icon": "ri-map-pin-2-line",
+            "title": "Location",
+            "content": "21 Innovation Avenue, Suite 403\nBusiness Park, Sector 18B\nMumbai, Maharashtra 400072,\n India"
+        },
+        {
+            "type": "email",
+            "icon": "ri-mail-line",
+            "title": "Send Email",
+            "content": "hello@strivoagency.com"
+        }
     ]
 }

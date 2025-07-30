@@ -44,6 +44,10 @@ import marketing_managment from "../assets/marketing_managment.jpg"
 import automated_marketing from "../assets/automated_marketing.jpg"
 import growth_chart from "../assets/growth_chart.jpg"
 
+//footerButtonImages
+import playstore from "../assets/playstore.png"
+import apple from "../assets/apple.png"
+
 
 // export userImages
 export const userImages = [
@@ -73,121 +77,146 @@ export const userImages = [
 
 //export trustedBrandsLogo
 export const logoImages = [
-  { src: logo1 , Name:"google" },
-  { src: logo2 , Name:"netflix" },
-  { src: logo3 , Name:"paypal" },
-  { src: logo4 , Name:"samsung" },
-  { src: logo5 , Name:"visa" },
-  { src: logo6 , Name:"amozonpay" },
-  { src: logo7 , Name:"lenovo" },
-  { src: logo8 , Name:"yahoo" },
-  { src: logo9 , Name:"canon" },
-  { src: logo10 , Name:"discover" },
-  { src: logo11 , Name:"flaticon" },
-  { src: logo12 , Name:"shopify" }
+  { src: logo1, Name: "google" },
+  { src: logo2, Name: "netflix" },
+  { src: logo3, Name: "paypal" },
+  { src: logo4, Name: "samsung" },
+  { src: logo5, Name: "visa" },
+  { src: logo6, Name: "amozonpay" },
+  { src: logo7, Name: "lenovo" },
+  { src: logo8, Name: "yahoo" },
+  { src: logo9, Name: "canon" },
+  { src: logo10, Name: "discover" },
+  { src: logo11, Name: "flaticon" },
+  { src: logo12, Name: "shopify" }
 ];
 
 //export serviceData
-export const serviceData=[
+export const serviceData = [
   {
-    src:icon1,
-    title:"Growth Strategy",
-    subtitle:"Build a clear roadmap for sustainable growth.",
-    features:[
+    src: icon1,
+    title: "Growth Strategy",
+    subtitle: "Build a clear roadmap for sustainable growth.",
+    features: [
       "Customized Solutions",
       "Timely and Reliable",
       "Continuous Improvement"
     ],
-    number:"01"
+    number: "01"
   },
   {
-    src:icon2,
-    title:"Market Research",
-    subtitle:"Make informed decisions backed by real data.",
-    features:[
+    src: icon2,
+    title: "Market Research",
+    subtitle: "Make informed decisions backed by real data.",
+    features: [
       "Industry & competitor analysis",
       "Target audience research",
       "Product-market fit validation"
     ],
-    number:"02"
+    number: "02"
   },
   {
-    src:icon3,
-    title:"Brand Positioning",
-    subtitle:"Define uniquely what makes your brand stand out.",
-    features:[
+    src: icon3,
+    title: "Brand Positioning",
+    subtitle: "Define uniquely what makes your brand stand out.",
+    features: [
       "Unique value proposition (UVP)",
       "Brand voice & messaging",
       "Competitive differentiation"
     ],
-    number:"03"
+    number: "03"
   },
   {
-    src:icon4,
-    title:"Digital Marketing",
-    subtitle:"Drive leads with powerful, targeted campaigns.",
-    features:[
+    src: icon4,
+    title: "Digital Marketing",
+    subtitle: "Drive leads with powerful, targeted campaigns.",
+    features: [
       "SEO & content marketing",
       "Paid advertising (Google)",
       "Email marketing & automation"
     ],
-    number:"04"
+    number: "04"
   },
   {
-    src:icon5,
-    title:"Creative Business Solutions",
-    subtitle:"Solve complex problems with innovative ideas.",
-    features:[
+    src: icon5,
+    title: "Creative Business Solutions",
+    subtitle: "Solve complex problems with innovative ideas.",
+    features: [
       "Business model innovation",
       "Process optimization",
       "New product or service ideation"
     ],
-    number:"05"
+    number: "05"
   },
   {
-    src:icon6,
-    title:"Financial Planning",
-    subtitle:"Plan your budget around strategic business goals.",
-    features:[
+    src: icon6,
+    title: "Financial Planning",
+    subtitle: "Plan your budget around strategic business goals.",
+    features: [
       "Pricing strategy",
       "Budget allocation",
       "profitability analysis"
     ],
-    number:"06"
+    number: "06"
   }
 ]
 
 //export featureData
-export const featureData=[
+export const featureData = [
   {
-    src:growth_strategy,
-    alt:"growth_strategy",
-    icon:"ri-line-chart-line",
-    content:"Smarter Growth Starts With Real-Time Insights"
+    src: growth_strategy,
+    alt: "growth_strategy",
+    icon: "ri-line-chart-line",
+    content: "Smarter Growth Starts With Real-Time Insights"
   },
   {
-    src:powerfull_tools,
-    alt:"powerfull_tools",
-    icon:"ri-rocket-2-line",
-    content:"Powerful Tools to Fuel Your Business Expansion"
+    src: powerfull_tools,
+    alt: "powerfull_tools",
+    icon: "ri-rocket-2-line",
+    content: "Powerful Tools to Fuel Your Business Expansion"
   },
   {
-    src:marketing_managment,
-    alt:"marketing_managment",
-    icon:"ri-group-line",
-    content:"Your Brand, Everywhere Your Customers Want To Be"
+    src: marketing_managment,
+    alt: "marketing_managment",
+    icon: "ri-group-line",
+    content: "Your Brand, Everywhere Your Customers Want To Be"
   },
   {
-    src:automated_marketing,
-    alt:"automated_marketing",
-    icon:"ri-hourglass-line",
-    content:"Automated Marketing That Saves Time and Delivers Results"
+    src: automated_marketing,
+    alt: "automated_marketing",
+    icon: "ri-hourglass-line",
+    content: "Automated Marketing That Saves Time and Delivers Results"
   },
   {
-    src:growth_chart,
-    alt:"growth_chart",
-    icon:"ri-bar-chart-box-line",
-    content:"The process of tracking profit is hassle free anytime anywhere"
+    src: growth_chart,
+    alt: "growth_chart",
+    icon: "ri-bar-chart-box-line",
+    content: "The process of tracking profit is hassle free anytime anywhere"
   }
 
+]
+
+//export featureData
+export const teamData = [
+  { src: avatar1, Name: "Liam Carter", position: "Founder / CEO" },
+  { src: avatar2, Name: "Emma Rivera", position: "Managing Director" },
+  { src: avatar3, Name: "Isabella Moretti", position: "Marketing Manager" },
+  { src: avatar4, Name: "Lina Petrov", position: "Content Strategist" },
+  { src: avatar5, Name: "Noah Rossi", position: "Growth Marketer" },
+  { src: avatar6, Name: "Sophia Kim", position: "Data Analyst" },
+  { src: avatar7, Name: "Aarav Mehta", position: "SEO Specialist" },
+  { src: avatar8, Name: "Leo Schneider", position: "Chief Growth Officer" },
+  { src: avatar9, Name: "Maya Thompson", position: "SEO Specialist" },
+  { src: avatar10, Name: "Olivia Hernández", position: "Data Analyst" },
+  { src: avatar11, Name: "Milo Zhang", position: "Growth Marketer" },
+  { src: avatar12, Name: "Siddharth Nair", position: "Chief Growth Officer" },
+  { src: avatar13, Name: "Giulia Romano", position: "Managing Director" },
+  { src: avatar14, Name: "Samuel Okafor", position: "Content Strategist" },
+  { src: avatar15, Name: "Yuki Takahashi", position: "Marketing Manager" }
+]
+
+//export footerButton
+export const footerButton = [
+  { href: "https://play.google.com/store/games?hl=en_IN", src: playstore, text: "Google Play" },
+  { href: "https://www.apple.com/in/app-store/", src: apple, text: "App Store" }
 ]
