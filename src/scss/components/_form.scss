@@ -4,15 +4,14 @@ form {
         .form-control {
             border-color: $light;
             box-shadow: none;
-            padding: $input-padding-y $input-padding-x;
         }
-
         .input-group-text {
             background-color: $success;
             color: $light;
-            border: transparent;
-            transition: $transition-base;
-
+            border-color: transparent;
+            .input-icon {
+                transition: $transition-base;
+            }
             &:hover {
                 .input-icon {
                     transform: translateX(5px);

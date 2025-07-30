@@ -994,8 +994,8 @@ $form-switch-checked-bg-position: right center ;
 // scss-docs-end form-switch-variables
 
 // scss-docs-start input-group-variables
-$input-group-addon-padding-y:           $input-padding-y ;
-$input-group-addon-padding-x:           $input-padding-x ;
+$input-group-addon-padding-y:           0.75rem ;
+$input-group-addon-padding-x:           1rem;
 $input-group-addon-font-weight:         $input-font-weight ;
 $input-group-addon-color:               $input-color ;
 $input-group-addon-bg:                  var(--#{$prefix}tertiary-bg) ;
