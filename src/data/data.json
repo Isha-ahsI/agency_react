@@ -19,7 +19,6 @@
             "text": "Continuous Improvement"
         }
     ],
-
     "Counters": [
         {
             "counting": "150",
@@ -38,7 +37,6 @@
             "field": "Wining Award"
         }
     ],
-
     "priceData": [
         {
             "title": "Starter",
@@ -83,7 +81,6 @@
             ]
         }
     ],
-
     "contactData": [
         {
             "icon": "ri-phone-fill",
@@ -104,31 +101,130 @@
             "icon": "ri-calendar-schedule-line",
             "title": "Hours",
             "type": "hours",
-            "details":["Service available : 24/7" ,"Office timing : 8am-6pm M-F"]
+            "details": [
+                "Service available : 24/7",
+                "Office timing : 8am-6pm M-F"
+            ]
         }
     ],
-
-    "socialIconData":[
+    "socialIconData": [
         {
-            "href":"https://x.com/?lang=en",
-            "class":"twitter-icon",
-            "icon":"ri-twitter-line"
+            "href": "https://x.com/?lang=en",
+            "class": "twitter-icon",
+            "icon": "ri-twitter-line"
         },
         {
-             "href":"https://in.linkedin.com/",
-            "class":"linkedin-icon",
-            "icon":"ri-linkedin-fill"
+            "href": "https://in.linkedin.com/",
+            "class": "linkedin-icon",
+            "icon": "ri-linkedin-fill"
         },
         {
-             "href":"https://www.youtube.com/",
-            "class":"youtube-icon",
-            "icon":"ri-youtube-fill"
+            "href": "https://www.youtube.com/",
+            "class": "youtube-icon",
+            "icon": "ri-youtube-fill"
         },
         {
-             "href":"https://www.facebook.com/",
-            "class":"facebook-icon",
-            "icon":"ri-facebook-circle-fill"
+            "href": "https://www.facebook.com/",
+            "class": "facebook-icon",
+            "icon": "ri-facebook-circle-fill"
         }
-        
+    ],
+    "accordionItemData": [
+        {
+            "evenkey": "1",
+            "type": "General",
+            "question": "How can your agency help grow my business?",
+            "answer": "We combine data-driven insights with creative strategy to boost your brand visibility, drive more traffic, and convert leads into loyal customers."
+        },
+        {
+            "evenkey": "2",
+            "type": "Pricing",
+            "question": "How much do your services cost?",
+            "answer": "Our pricing plans start at $19/month, with flexible packages tailored to your business goals."
+        },
+        {
+            "evenkey": "3",
+            "type": "Process",
+            "question": "What is the onboarding process like?",
+            "answer": "We start with a discovery call to understand your business, followed by a custom strategy plan."
+        },
+        {
+            "evenkey": "4",
+            "type": "Pricing",
+            "question": "Do you offer a free trial?",
+            "answer": "Yes, we offer a 7-day free trial so you can explore our tools and see the value before committing."
+        },
+        {
+            "evenkey": "5",
+            "type": "General",
+            "question": "How do I get started?",
+            "answer": "Simply reach out through our contact form or book a free consultation. We’ll assess your needs and propose a custom growth plan."
+        },
+        {
+            "evenkey": "6",
+            "type": "Services",
+            "question": "What services does your agency offer?",
+            "answer": "We offer marketing strategy, branding, SEO, social media management, and lead generation to help businesses grow."
+        },
+        {
+            "evenkey": "7",
+            "type": "Services",
+            "question": "Do you provide custom growth strategies?",
+            "answer": "Yes, we create tailored strategies based on your business goals, industry, and target audience."
+        },
+        {
+            "evenkey": "8",
+            "type": "Pricing",
+            "question": "Can I change my plan later?",
+            "answer": "Absolutely! You can upgrade or downgrade your plan anytime based on your needs."
+        },
+        {
+            "evenkey": "9",
+            "type": "General",
+            "question": "Who can benefit from your services?",
+            "answer": "Our services are designed for startups, small to medium businesses, and enterprises looking to scale, improve online presence, or optimize operations."
+        },
+        {
+            "evenkey": "10",
+            "type": "General",
+            "question": "Is my business too small to work with you?",
+            "answer": "Not at all! We work with businesses of all sizes and offer scalable solutions that fit your current stage and future growth."
+        },
+        {
+            "evenkey": "11",
+            "type": "Pricing",
+            "question": "Do you offer any discount on yearly plans?",
+            "answer": "Yes! When you choose a yearly plan, you receive an exclusive discount of up to 20% compared to monthly billing. This allows you to save more while enjoying uninterrupted access to all our premium features."
+        },
+        {
+            "evenkey": "12",
+            "type": "Process",
+            "question": "Will I get regular updates on progress?",
+            "answer": "Yes, we provide weekly reports and monthly strategy calls to review performance."
+        },
+        {
+            "evenkey": "13",
+            "type": "Process",
+            "question": "Can I be involved in the decision-making process?",
+            "answer": "Absolutely. We believe in collaboration and value your input at every stage."
+        },
+        {
+            "evenkey": "14",
+            "type": "Process",
+            "question": "How long does it take to see results?",
+            "answer": "Results typically begin within 4–6 weeks, depending on your goals and industry."
+        },
+        {
+            "evenkey": "15",
+            "type": "Services",
+            "question": "Do you offer social media marketing services?",
+            "answer": "Yes, we manage content creation, scheduling, engagement, and paid ads on platforms like Instagram, Facebook, and LinkedIn."
+        },
+        {
+            "evenkey": "16",
+            "type": "Services",
+            "question": "What kind of analytics or reporting do you provide?",
+            "answer": "We provide monthly performance reports with insights on traffic, conversions, ROI, and suggestions for improvement."
+        }
     ]
 }
