@@ -15,6 +15,12 @@ import avatar13 from "../assets/user_images/user13.jpg"
 import avatar14 from "../assets/user_images/user14.jpg"
 import avatar15 from "../assets/user_images/user15.jpg"
 
+//heroSectionImages
+import smart_growth_strategy from "../assets/smart_growth_strategy.png"
+import Marketing_strategy from "../assets/marketing_strategy.png"
+import creative_solutions from "../assets/creative_solutions.png"
+
+
 // trustedBrandsLogo
 import logo1 from "../assets/b_logo/logo_1.png"
 import logo2 from "../assets/b_logo/logo_2.png"
@@ -74,6 +80,13 @@ export const userImages = [
   { orbit: "outer", className: "orbit-o8", type: "dot" },
   { orbit: "outer", className: "orbit-o9", type: "dot" }
 ];
+
+//export herosection2Data
+export const heroSection2 = [
+  { class: "hero-img-card-1", title: "smart growth strategy", src: smart_growth_strategy },
+  { class: "hero-img-card-2", title: "Marketing strategy", src: Marketing_strategy },
+  { class: "hero-img-card-3", title: "creative solutions", src: creative_solutions }
+]
 
 //export trustedBrandsLogo
 export const logoImages = [
@@ -220,3 +233,4 @@ export const footerButton = [
   { href: "https://play.google.com/store/games?hl=en_IN", src: playstore, text: "Google Play" },
   { href: "https://www.apple.com/in/app-store/", src: apple, text: "App Store" }
 ]
+
