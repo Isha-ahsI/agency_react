@@ -37,6 +37,20 @@
             "field": "Wining Award"
         }
     ],
+
+    "heroSection3Btn":[
+        {
+            "lable":"start Free Trial",
+            "icon":null,
+            "class":"rounded-pill d-sm-block d-none"
+        },
+        {
+            
+            "lable":null,
+            "icon":"ri-arrow-left-s-line",
+            "class":"rounded-circle d-sm-none d-block px-2 py-1 me-2"
+        }
+    ],
     "priceData": [
         {
             "title": "Starter",
