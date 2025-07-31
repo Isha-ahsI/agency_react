@@ -4,6 +4,9 @@
     &.navbar1{
         background-color: transparent;
     }
+    &.navbar2{
+        background-color: rgba($light, 0.7);
+    }
     &.nav-scroll{
         position: sticky;
         top: 0; 
