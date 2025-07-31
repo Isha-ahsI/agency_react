@@ -88,6 +88,14 @@ export const heroSection2 = [
   { class: "hero-img-card-3", title: "creative solutions", src: creative_solutions }
 ]
 
+//export userAvatars
+export const userAvatars =[
+  {type:"image" , src:avatar1 ,tooltip:[{Name:"Liam Carter", content:"Helped scale our business faster than expected " }] },
+  {type:"image" ,src:avatar11 ,tooltip:[{Name:"Samuel Okafor", content:"Helped our business grow faster with smart strategies and real results." }] },
+  {type:"image" ,src:avatar3 ,tooltip:[{Name:"Isabella Moretti", content:"Helped scale our business faster than we imagined." }]},
+  {type:"more" ,tooltip:[{Name:"More", content:""}]}
+]
+
 //export trustedBrandsLogo
 export const logoImages = [
   { src: logo1, Name: "google" },
@@ -209,7 +217,7 @@ export const featureData = [
 
 ]
 
-//export featureData
+//export teamData
 export const teamData = [
   { src: avatar1, Name: "Liam Carter", position: "Founder / CEO" },
   { src: avatar2, Name: "Emma Rivera", position: "Managing Director" },
