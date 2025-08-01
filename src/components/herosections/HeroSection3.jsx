@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Button, Form } from 'react-bootstrap';
+import { Container, Row, Col, Button, Form, Image } from 'react-bootstrap';
 import img3 from '../../assets/hero-img3.png'
 import Data from '../../data/data.json'
 
@@ -10,7 +10,7 @@ const HeroSection3 = () => {
         <Container>
           <Row className='align-items-center'>
             <Col xl={5} xs={12} className='my-5 my-xl-0'>
-              <img src={img3} alt="girl-with-tablet-that-display-growth-chart-and-progress-result" className='img-fluid' />
+              <Image src={img3} alt="girl-with-tablet-that-display-growth-chart-and-progress-result" className='img-fluid' />
             </Col>
             <Col xl={{ span: 6, offset: 1 }} xs={12} >
               <div className="text-center">

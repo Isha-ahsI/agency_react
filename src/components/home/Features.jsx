@@ -19,7 +19,7 @@ const Features = () => {
                             <h1 className='text-success text-xl-start text-center mb-4'>Powerful tools for Bussinesss Growth</h1>
                         </Col>
                         <Col xl={{ span: 5, offset: 1 }} offset={1} xs={12}>
-                            <p className='text-light text-xl-start text-center mb-4'>Strivo offers smart,scalable tools that help your business grow faster. From marketing to analytics, we give you everything you need to succeed—right at your fingertips.</p>
+                            <p className='text-light text-xl-start text-center mb-4'>Sivoci offers smart,scalable tools that help your business grow faster. From marketing to analytics, we give you everything you need to succeed—right at your fingertips.</p>
                         </Col>
                     </Row>
                     <Row className='justify-content-center aligb-items-center'>

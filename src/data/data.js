@@ -93,7 +93,7 @@ export const userAvatars =[
   {type:"image" , src:avatar1 ,tooltip:[{Name:"Liam Carter", content:"Helped scale our business faster than expected " }] },
   {type:"image" ,src:avatar11 ,tooltip:[{Name:"Samuel Okafor", content:"Helped our business grow faster with smart strategies and real results." }] },
   {type:"image" ,src:avatar3 ,tooltip:[{Name:"Isabella Moretti", content:"Helped scale our business faster than we imagined." }]},
-  {type:"more" ,tooltip:[{Name:"More", content:""}]}
+  {type:"more" ,tooltip:[{Name:"", content:"Add more"}]}
 ]
 
 //export trustedBrandsLogo

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row , Col } from 'react-bootstrap';
+import { Container, Row , Col, Image } from 'react-bootstrap';
 import Data from '../../data/data.json';
 import { userImages } from '../../data/data';
 import CountUp from 'react-countup';
@@ -55,7 +55,7 @@ const HeroSection = () => {
                             <div key={index} className={`orbit-dots ${item.className}`}></div>
                           ) : (
                             <div key={index} className={`orbit-img ${item.className}`}>
-                              <img src={item.src} alt={`user-${index + 1}`} />
+                              <Image src={item.src} alt={`user-${index + 1}`} />
                             </div>
                           )
                         )}
@@ -63,7 +63,7 @@ const HeroSection = () => {
                   ))}
                 </div>
                 <div className="d-sm-none d-block">
-                  <img src={HeroImg} alt="..." className="img-fluid" />
+                  <Image src={HeroImg} alt="..." className="img-fluid" />
                 </div>
                 <div className="metric position-absolute text-center">
                   <CountUp start={0} end={20000} delay={1} duration={5} separator="," formattingFn={(value) => {

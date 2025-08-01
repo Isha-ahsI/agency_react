@@ -6,6 +6,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Headerdata from "../data/headerdata.json";
 import { useLocation } from 'react-router-dom';
+import logo from '../assets/logo-dark.png';
+import logo_sm from '../assets/logo-sm.png';
+import { Image } from 'react-bootstrap';
 
 
 const Header = () => {
@@ -45,10 +48,11 @@ const Header = () => {
         <Navbar key={expand} expand={expand} ref={navbarRef} fixed="top" className={navbarClass} id="mainNavbar">
           <Container className='flex-md-column justify-content-center align-items-center'>
             <div className="d-flex justify-content-between align-items-center w-100">
-              <span className="d-md-block d-none mail-id text-primary"><i className="ri-mail-fill"></i>info@boowebsite.com</span>
+              <span className="d-md-block d-none mail-id text-primary"><i className="ri-mail-fill"></i>sivociagency@gmail.com</span>
               <div className="nav-logo">
                 <Navbar.Brand href="#" className='d-flex justify-content-md-center justify-content-start align-items-center text-center m-0'>
-                  <h4 className="m-0 text-primary">Strivo</h4>
+                  <Image height={20} src={logo} alt="..." className='d-sm-block d-none'  />
+                  <Image height={30} src={logo_sm} alt="..." className='d-sm-none d-block'  />
                 </Navbar.Brand>
               </div>
               <div className="ms-auto">
@@ -90,7 +94,7 @@ const Header = () => {
                 </Nav>
               </div>
               <div className="offcanvas-footer d-md-none p-3 text-primary">
-                <i className="ri-mail-fill fs-5 me-1"></i> <span>info@boowebsite.com</span>
+                <i className="ri-mail-fill fs-5 me-1"></i> <span>sivociagency@gmail.com</span>
               </div>
             </Navbar.Offcanvas>
           </Container>

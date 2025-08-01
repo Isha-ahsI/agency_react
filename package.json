@@ -10,10 +10,12 @@
     "bootstrap": "^5.3.7",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
+    "react-countup": "^6.5.3",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
     "remixicon": "^4.6.0",
     "sass": "^1.89.2",
+    "swiper": "^11.2.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,7 +1,8 @@
 import React from 'react'
-import { Container, Row, Col, Form, InputGroup, Button } from 'react-bootstrap';
+import { Container, Row, Col, Form, InputGroup, Button, Image } from 'react-bootstrap';
 import Data from "../data/data.json"
 import { footerButton } from "../data/data";
+import logo from '../assets/logo-light.png';
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
             <Row>
               <Col xs={12} className='mb-4'>
                 <div className='d-sm-flex justify-content-sm-between align-items-sm-center'>
-                  <h4 className='mb-0'>Strivo</h4>
+                 <Image height={20} src={logo} alt="..." />
                   <div>
                     <p className="mb-1">See our new update</p>
                     <Form>
@@ -72,7 +73,7 @@ const Footer = () => {
                 <div className="d-flex flex-wrap justify-content-center gap-2">
                   {footerButton.map((items, index) => (
                     <Button key={index} href={items.href} className="d-inline-flex gap-2 align-items-center bg-white text-dark text-decoration-none p-2" target="_blank" rel="noreferrer">
-                      <img src={items.src} alt="..."></img>
+                      <Image src={items.src} alt="..." />
                       <div>
                         <small className="text-secondary">Install now</small>
                         <h5 className="fw-bold lh-1 mb-0">{items.text}</h5>
@@ -88,10 +89,11 @@ const Footer = () => {
           <Container>
             <Row>
               <Col xs={12}>
-                <div className="d-lg-flex justify-content-lg-between align-items-lg-center">
-                  <p className="mb-0">Copyright © 2023 All rights reserved | Block is made with by
-                    <span className="text-success fw-bold"> strivo</span>
-                  </p>
+                <div className="d-lg-flex justify-content-lg-between justify-content-center align-items-center">
+                  <div className='d-flex align-items-center'>
+                    <p className="mb-0 me-2">Copyright © 2023 All rights reserved | Block is made with by</p>
+                    <Image height={20} src={logo} alt="..." />
+                  </div>
                   <div className="d-flex justify-content-center align-items-center overflow-hidden">
                     {Data.socialIconData.map((items, index) => (
                       <a href={items.href} target="_blank" rel="noreferrer" key={index} className={`socialContainer ${items.class} m-2`}>

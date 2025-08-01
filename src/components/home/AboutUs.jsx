@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Badge } from 'react-bootstrap';
+import { Container, Row, Col, Badge, Image } from 'react-bootstrap';
 import AboutImg from '../../assets/employee.jpg';
 import Badge1 from '../../assets/expert_growth_strategists.png';
 import Badge2 from '../../assets/proven_business _results.png';
@@ -15,19 +15,19 @@ const AboutUs = () => {
                     <Row className="align-items-center mb-5">
                         <Col lg={6} xs={12} className='mb-lg-0 mb-5'>
                             <div className="aboutus-img-wrap position-relative">
-                                <img src={AboutImg} alt="employees work" className="img-fluid aboutus-img" />
+                                <Image src={AboutImg} alt="employees work" className="img-fluid aboutus-img" />
                                 <div className="custom-border position-absolute"></div>
                                 <div className="custom-bg position-absolute"></div>
                                 <Badge bg="light" text="dark" className="position-absolute top-0 end-0 z-2 shadow">
                                     <div className="d-flex align-items-center p-sm-2">
-                                        <img src={Badge1} alt="Expert Growth Strategists" />
+                                        <Image src={Badge1} alt="Expert Growth Strategists" />
                                         <h6 className="ms-2 mb-0">Expert Growth Strategists</h6>
                                     </div>
                                 </Badge>
                                 <Badge bg="light" text="dark" className="position-absolute start-0 bottom-0 z-2 shadow">
                                     <div className="d-flex align-items-center p-sm-2">
                                         <h6 className="me-2 mb-0">Proven Business Results</h6>
-                                        <img src={Badge2} alt="Proven Business Results" />
+                                        <Image src={Badge2} alt="Proven Business Results" />
                                     </div>
                                 </Badge>
                             </div>

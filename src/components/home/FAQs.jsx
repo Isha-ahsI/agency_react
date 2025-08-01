@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Container, Row, Col, Button, Accordion } from 'react-bootstrap';
+import { Container, Row, Col, Button, Accordion, Image } from 'react-bootstrap';
 import Data from "../../data/data.json"
 import AccordionImg from "../../assets/faqs_img.jpg"
 
@@ -50,7 +50,7 @@ const FAQs = () => {
                                 </Col>
                                 <Col lg={{ span: 4, offset: 1 }} xs={12}>
                                     <div className="d-lg-block d-none">
-                                        <img src={AccordionImg} alt="man_searching" className="img-fluid" />
+                                        <Image src={AccordionImg} alt="man_searching" className="img-fluid" />
                                     </div>
                                 </Col>
                             </Row>

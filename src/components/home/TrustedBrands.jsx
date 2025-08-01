@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 import { logoImages } from '../../data/data';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
@@ -38,7 +38,7 @@ const TrustedBrands = () => {
                             >
                                 {logoImages.map((item, index) => (
                                     <SwiperSlide key={index}>
-                                        <img src={item.src} alt={item.Name} className="img-fluid" />
+                                        <Image src={item.src} alt={item.Name} className="img-fluid" />
                                     </SwiperSlide>
                                 ))}
                             </Swiper>
@@ -64,7 +64,7 @@ const TrustedBrands = () => {
                             >
                                 {logoImages.map((item, index) => (
                                     <SwiperSlide key={index}>
-                                        <img src={item.src} alt={item.Name} className='img-fluid' />
+                                        <Image src={item.src} alt={item.Name} className='img-fluid' />
                                     </SwiperSlide>
                                 ))}
                             </Swiper>

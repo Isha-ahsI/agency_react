@@ -37,18 +37,16 @@
             "field": "Wining Award"
         }
     ],
-
-    "heroSection3Btn":[
+    "heroSection3Btn": [
         {
-            "lable":"start Free Trial",
-            "icon":null,
-            "class":"rounded-pill d-sm-block d-none"
+            "lable": "start Free Trial",
+            "icon": null,
+            "class": "rounded-pill d-sm-block d-none"
         },
         {
-            
-            "lable":null,
-            "icon":"ri-arrow-left-s-line",
-            "class":"rounded-circle d-sm-none d-block px-2 py-1 me-2"
+            "lable": null,
+            "icon": "ri-arrow-left-s-line",
+            "class": "rounded-circle d-sm-none d-block px-2 py-1 me-2"
         }
     ],
     "priceData": [
@@ -102,7 +100,7 @@
             "type": "contactinfo",
             "details": [
                 "01-000-999-333",
-                "hello@strivoagency.com"
+                "sivociagency@gmail.com"
             ]
         },
         {
@@ -246,34 +244,82 @@
             "class": "col-lg-2",
             "title": "Agency",
             "links": [
-                { "href": "#home", "text": "Home"},
-                { "href": "#aboutus", "text": "About Us"},
-                { "href": "#services", "text": "Service"},
-                { "href": "#features", "text": "Features"},
-                { "href": "#pricing", "text": "Pricing"},
-                { "href": "#contactus", "text": "Contact Us"}
+                {
+                    "href": "#home",
+                    "text": "Home"
+                },
+                {
+                    "href": "#aboutus",
+                    "text": "About Us"
+                },
+                {
+                    "href": "#services",
+                    "text": "Service"
+                },
+                {
+                    "href": "#features",
+                    "text": "Features"
+                },
+                {
+                    "href": "#pricing",
+                    "text": "Pricing"
+                },
+                {
+                    "href": "#contactus",
+                    "text": "Contact Us"
+                }
             ]
         },
         {
             "class": "col-lg-3",
             "title": "Service",
             "links": [
-                { "href": "#services", "text":  "Growth Strategy"},
-                { "href": "#services", "text":"Market Research"},
-                { "href": "#services", "text":  "Brand Positioning"},
-                { "href": "#services", "text": "Digital Marketing"},
-                { "href": "#services", "text":"Creative Business Solutions"},
-                { "href": "#services", "text":"Financial Planning"}            
+                {
+                    "href": "#services",
+                    "text": "Growth Strategy"
+                },
+                {
+                    "href": "#services",
+                    "text": "Market Research"
+                },
+                {
+                    "href": "#services",
+                    "text": "Brand Positioning"
+                },
+                {
+                    "href": "#services",
+                    "text": "Digital Marketing"
+                },
+                {
+                    "href": "#services",
+                    "text": "Creative Business Solutions"
+                },
+                {
+                    "href": "#services",
+                    "text": "Financial Planning"
+                }
             ]
         },
         {
             "class": "col-lg-3",
             "title": "Help",
             "links": [
-                { "href": "#supportcenter", "text": "Support Center"},
-                { "href": "#termsandcondition", "text": "Terms & Condition"},
-                { "href": "#disclaimer", "text": "Disclaimer"},
-                { "href": "#FAQs", "text": "FAQs"}
+                {
+                    "href": "#supportcenter",
+                    "text": "Support Center"
+                },
+                {
+                    "href": "#termsandcondition",
+                    "text": "Terms & Condition"
+                },
+                {
+                    "href": "#disclaimer",
+                    "text": "Disclaimer"
+                },
+                {
+                    "href": "#FAQs",
+                    "text": "FAQs"
+                }
             ]
         }
     ],
@@ -294,7 +340,69 @@
             "type": "email",
             "icon": "ri-mail-line",
             "title": "Send Email",
-            "content": "hello@strivoagency.com"
+            "content": "sivociagency@gmail.com"
+        }
+    ],
+    "userImageData": [
+        {
+            "col": "col-6 col-xl-4",
+            "users": [
+                {
+                    "src": "/images/user_images/user1.jpg"
+                },
+                {
+                    "src": "/images/user_images/user2.jpg"
+                },
+                {
+                    "src": "/images/user_images/user3.jpg"
+                },
+                {
+                    "src": "/images/user_images/user4.jpg"
+                },
+                {
+                    "src": "/images/user_images/user5.jpg"
+                }
+            ]
+        },
+        {
+            "col": "d-none d-xl-block col-md-4",
+            "users": [
+                {
+                    "src": "/images/user_images/user6.jpg"
+                },
+                {
+                    "src": "/images/user_images/user7.jpg"
+                },
+                {
+                    "src": "/images/user_images/user8.jpg"
+                },
+                {
+                    "src": "/images/user_images/user9.jpg"
+                },
+                {
+                    "src": "/images/user_images/user10.jpg"
+                }
+            ]
+        },
+        {
+            "col": "col-6 col-xl-4",
+            "users": [
+                {
+                    "src": "/images/user_images/user11.jpg"
+                },
+                {
+                    "src": "/images/user_images/user12.jpg"
+                },
+                {
+                    "src": "/images/user_images/user13.jpg"
+                },
+                {
+                    "src": "/images/user_images/user14.jpg"
+                },
+                {
+                    "src": "/images/user_images/user15.jpg"
+                }
+            ]
         }
     ]
 }
